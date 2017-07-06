@@ -61,3 +61,108 @@
     border: solid 1px white;
     border-radius: 10px;
 }
+
+
+@media only screen and (min-width : 1366px) {
+    body {
+        background-image: url('../Images/backgroundMainPage.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mainPageTitle {
+        position: fixed;
+        bottom: 100%;
+        left: 26%;
+        font-size: 70px;
+        text-shadow: 5px 5px 5px darkgrey;
+        color: white;
+    }
+
+    .mainPageUnderTitleText {
+        position: fixed;
+        bottom: -100%;
+        left: 41%;
+        font-size: 50px;
+        color: white;
+        text-shadow: 5px 5px 5px darkgrey;
+        padding: 15px;
+        border: solid 1px white;
+        border-radius: 10px;
+    }
+
+    .menuLine {
+        height: 490px;
+    }
+
+    .menuBar {
+        height: 490px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1365px) {
+    body {
+        background-image: url('../Images/backgroundMainPage.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .menuLine {
+        margin-top: 10%;
+        height: 480px;
+    }
+
+    .menuBar {
+        margin-top: 10%;
+        height: 480px;
+        padding-right: 20px;
+    }
+
+    .mainPageTitle {
+        position: fixed;
+        bottom: 100%;
+        left: 26%;
+        font-size: 55px;
+    }
+
+    .mainPageUnderTitleText {
+        position: fixed;
+        bottom: -100%;
+        left: 41%;
+        font-size: 40px;
+        padding: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-image: url('../Images/smallBackgroundMainPage.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mainPageTitle {
+        font-size: 55px;
+        position: fixed;
+        left: 15%;
+    }
+
+    .mainPageUnderTitleText {
+        font-size: 30px;
+        position: fixed;
+        left: 28%;
+    }
+
+    .menuLine {
+        margin-top: 35%;
+        height: 480px;
+    }
+
+    .menuBar {
+        margin-top: 35%;
+        height: 480px;
+        padding-right: 40px;
+    }
+}
