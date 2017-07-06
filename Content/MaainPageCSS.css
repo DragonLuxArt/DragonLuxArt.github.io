@@ -1,0 +1,63 @@
+﻿body {
+    background-image: url('../Images/backgroundMainPage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menuBar {
+    margin-top: 10%;
+    margin-bottom: 0;
+    width: 3%;
+    height: 748px;
+    background-color: black;
+    border-right: solid 1px white;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+
+    .menuBar div {
+        display: block;
+        position: relative;
+        left: 0;
+        margin: 0;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        padding-top: 20px;
+        text-decoration: none;
+        font-size: small;
+    }
+
+        .menuBar div:hover {
+            background-color: grey;
+        }
+
+.menuLine {
+    margin-top: 10%;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 2px;
+    height: 748px;
+    border-left: solid 2px white;
+}
+
+.mainPageTitle {
+    position: fixed;
+    bottom: 100%;
+    left: 33%;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px darkgrey;
+    color: white;
+}
+
+.mainPageUnderTitleText {
+    position: fixed;
+    bottom: -100%;
+    left: 43.5%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px 5px darkgrey;
+    padding: 15px;
+    border: solid 1px white;
+    border-radius: 10px;
+}
