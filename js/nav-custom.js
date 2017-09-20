@@ -15,7 +15,7 @@ $(document).ready(function() {
 		  $(this).toggleClass('menu-opened');
 		  var mainmenu = $(this).next('ul');
 		  if (mainmenu.hasClass('open')) { 
-			mainmenu.slideUp().removeClass('open');
+		      mainmenu.slideUp().removeClass('open');
 		  }
 		  else {
 			mainmenu.slideDown().addClass('open');

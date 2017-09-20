@@ -185,13 +185,13 @@ aside[role="siderbar-nav"] {
                 aside[role="siderbar-nav"] > nav > ul > li.active a, aside[role="siderbar-nav"] > nav > ul > li a:hover {
                     background-color: inherit;
                     border: none;
-                    color: #e84d49;
+                    color: purple;
                 }
 
         aside[role="siderbar-nav"] > nav .nav-tabs > li.active > a, aside[role="siderbar-nav"] > nav .nav-tabs > li.active > a:focus, aside[role="siderbar-nav"] > nav .nav-tabs > li.active > a:hover {
             background-color: inherit;
             border: none;
-            color: #e84d49;
+            color: purple;
         }
 /*== Header ==*/
 
@@ -214,12 +214,12 @@ header[role="main-header"] {
     header[role="main-header"] ul[role="socil-icons"] {
         list-style: none;
         text-align: right;
-        float: right;
+        float: left;
     }
 
         header[role="main-header"] ul[role="socil-icons"] > li {
             display: inline-block;
-            margin-left: 28px;
+            padding-top: 20px;
         }
 
             header[role="main-header"] ul[role="socil-icons"] > li > a {
@@ -240,14 +240,15 @@ main[role="main"] {
 
 .UpperTitle {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 900;
     color: white;
+    text-shadow: 3px 4px 2px black;
     text-decoration: none;
-    opacity: 0.8;
 }
 
 article.home-content {
     color: #FFF;
+    text-shadow: 4px 3px 2px black;
 }
 
     article.home-content header[role="home-title"] {
@@ -263,7 +264,7 @@ article.home-content {
         }
 
             article.home-content header[role="home-title"] h2 > span {
-                color: #e84d49;
+                color: purple;
             }
 
     article.home-content p {
@@ -284,14 +285,15 @@ article.home-content {
     .other-page header[role="page-title"] h2 {
         padding: 0;
         margin: 0;
-        color: #FFF;
-        font-size: 39px;
+        color: white;
+        text-shadow: 3px 4px 2px black;
+        font-size: 49px;
         line-height: 40px;
         font-weight: 700;
     }
 
 .other-page article p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 27px;
     color: #FFF;
     padding: 0;
@@ -323,12 +325,12 @@ footer[role="footer"] {
         footer[role="footer"] p + p {
             text-align: right;
             float: right;
-            margin:0 0 0 0;
+            margin: 0 0 0 0;
         }
 
         footer[role="footer"] p a {
             padding: 0 4px;
-            color: #e84d49;
+            color: purple;
         }
 /*==  code for animated blinking cursor ==*/
 .typed-cursor {

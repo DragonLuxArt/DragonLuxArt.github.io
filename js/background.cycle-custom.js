@@ -16,11 +16,11 @@ var fadeShow = $(".background").fadeShow({
 
 
 
-	images: ['images/backgroundimageSlider1.jpg',
+	images: ['images/FractalBackgroundPurple.jpg',
 
 
 
-			 'images/slider-image-2.jpg']
+			 'images/FractalBackgroundSilver.jpg']
 
 
 
