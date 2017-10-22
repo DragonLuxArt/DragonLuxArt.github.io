@@ -47,9 +47,117 @@ footer {
     font-size: 0.8em;
 }
 
-@media(max-width:600px) {
+#aboutPage {
+    background-image: url('Images/BK-Background_WithoutLogo.jpg');
+    background-color: #000000;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-height: 840px;
+    border-radius: 0;
+    margin: 0;
+}
+
+#aboutPageLogoUpper {
+    transform: translateY(60%);
+    max-width: 100%;
+}
+
+#aboutPageLogoLower {
+    transform: translateY(50%);
+    max-width: 100%;
+}
+
+#jumbotronTitle1 {
+    font-family: Britannic;
+    font-size: 3.5em;
+    font-style: italic;
+    color: #000000;
+    text-shadow: 2px 2px 14px #ff0000;
+}
+
+#jumbotronTitle2 {
+    font-family: Britannic;
+    font-size: 3.5em;
+    font-style: italic;
+    color: #000000;
+    text-shadow: 2px 2px 14px #ff0000;
+    transform: translateY(70px);
+}
+
+#aboutPageText1 {
+    font-family: 'Arial Rounded MT';
+    font-size: 2.0em;
+    font-style: italic;
+    color: #000000;
+    text-shadow: 1px 1px 14px #ff0000;
+}
+
+@media(max-width:1400px) {
+
+    #aboutPageLogoUpper {
+        transform: translateY(-5%);
+        max-width: 100%;
+    }
+
+    #aboutPageLogoLower {
+        transform: translateY(-5%);
+        max-width: 100%;
+    }
+
+    #jumbotronTitle1 {
+        font-size: 2.5em;
+    }
+
+    #jumbotronTitle2 {
+        font-size: 2.5em;
+        transform: translateY(0px);
+    }
+
+    #aboutPageText1 {
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width:1100px) {
+
+    #aboutPageText1 {
+        font-size: 0;
+        visibility: hidden;
+    }
+
+    #jumbotronTitle1 {
+        font-size: 0;
+        visibility: hidden;
+    }
+
+    #aboutPageLogoUpper {
+        transform: translateY(-50%);
+        max-width: 60%;
+    }
+
+    #aboutPageLogoLower {
+        transform: translateY(-50%);
+        max-width: 60%;
+    }
+
+    #jumbotronTitle2 {
+        font-size: 2.5em;
+        transform: translateY(-80px);
+    }
+
+    #aboutPageFooter {
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:570px) {
+
+    #aboutPageFooter {
+        padding-top: 260px;
+    }
+
     #footerCaption {
-        padding: 5px 0 5px;
+        padding: 10px 0 5px;
     }
 
     #footerP {
@@ -59,5 +167,30 @@ footer {
 
     h3 {
         font-size: 1.1em;
+    }
+
+    #aboutPageLogoUpper {
+        transform: translateY(50%);
+        max-width: 100%;
+    }
+
+    #aboutPageLogoLower {
+        transform: translateY(50%);
+        max-width: 100%;
+    }
+
+    #aboutPageText1 {
+        font-size: 0;
+        visibility: hidden;
+    }
+
+    #jumbotronTitle1 {
+        font-size: 0;
+        visibility: hidden;
+    }
+
+    #jumbotronTitle2 {
+        font-size: 1.8em;
+        transform: translateY(270%);
     }
 }
