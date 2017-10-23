@@ -58,12 +58,12 @@ footer {
 }
 
 #aboutPageLogoUpper {
-    transform: translateY(60%);
+    transform: translateY(50%);
     max-width: 100%;
 }
 
 #aboutPageLogoLower {
-    transform: translateY(50%);
+    transform: translateY(40%);
     max-width: 100%;
 }
 
@@ -95,12 +95,12 @@ footer {
 @media(max-width:1400px) {
 
     #aboutPageLogoUpper {
-        transform: translateY(-5%);
+        transform: translateY(-10%);
         max-width: 100%;
     }
 
     #aboutPageLogoLower {
-        transform: translateY(-5%);
+        transform: translateY(-15%);
         max-width: 100%;
     }
 
@@ -153,29 +153,37 @@ footer {
 @media(max-width:570px) {
 
     #aboutPageFooter {
-        padding-top: 260px;
+        padding-top: 450px;
     }
 
     #footerCaption {
-        padding: 10px 0 5px;
+        padding: 0px 0 5px;
+    }
+
+    #connect {
+        padding-bottom: 0px;
     }
 
     #footerP {
         font-size: 0.7em;
+        padding-top: 5px;
     }
 
+    .fa {
+        padding-bottom: 10px;
+    }
 
     h3 {
         font-size: 1.1em;
     }
 
     #aboutPageLogoUpper {
-        transform: translateY(50%);
+        transform: translateY(80%);
         max-width: 100%;
     }
 
     #aboutPageLogoLower {
-        transform: translateY(50%);
+        transform: translateY(80%);
         max-width: 100%;
     }
 
@@ -191,6 +199,11 @@ footer {
 
     #jumbotronTitle2 {
         font-size: 1.8em;
-        transform: translateY(270%);
+        text-shadow: 2px 0px 18px #ff0a0a;
+        transform: translateY(350%);
+    }
+
+    h3 {
+        margin-bottom: -10px;
     }
 }
