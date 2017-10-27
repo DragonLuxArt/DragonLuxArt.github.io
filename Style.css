@@ -92,6 +92,84 @@ footer {
     text-shadow: 1px 1px 14px #ff0000;
 }
 
+#PortfolioPage {
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Graphics {
+    display: inline-block;
+    color: #ff0000;
+    font-family: Britannic;
+    font-size: 3.5em;
+    font-style: italic;
+    margin-right: 50px;
+}
+
+#Websites {
+    display: inline-block;
+    color: #ff0000;
+    font-family: Britannic;
+    font-size: 3.5em;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+#ContactPage {
+    background-image: url('Images/BK-Background_WithoutLogo.jpg');
+    background-color: #000000;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 840px;
+    border-radius: 0;
+    margin: 0;
+}
+
+#ContactTitle1 {
+    font-family: Britannic;
+    font-size: 3.5em;
+    color: #000000;
+    text-shadow: 2px 2px 14px #ff0000;
+    list-style: none;
+    display: inline-block;
+    transform: translateY(200%);
+    margin: -2px;
+}
+
+#ContactTitle2 {
+    font-family: Britannic;
+    font-size: 3.5em;
+    color: #000000;
+    text-shadow: 2px 2px 14px #ff0000;
+    list-style: none;
+    display: inline-block;
+    transform: translateY(200%);
+    margin: -2px;
+}
+
+#ContactEmail1 {
+    font-family: Britannic;
+    font-size: 3.5em;
+    color: #000000;
+    text-shadow: 2px 2px 14px #ff0000;
+    list-style: none;
+    display: inline-block;
+    transform: translateY(200%);
+    margin: -2px;
+}
+
+#ContactEmail2 {
+    font-family: Britannic;
+    font-size: 3.5em;
+    color: #000000;
+    text-shadow: 2px 2px 14px #ff0000;
+    list-style: none;
+    display: inline-block;
+    transform: translateY(200%);
+    margin: -2px;
+}
+
 @media(max-width:1400px) {
 
     #aboutPageFooter {
@@ -120,6 +198,26 @@ footer {
 
     #aboutPageText1 {
         font-size: 1.5em;
+    }
+
+    #ContactTitle1 {
+        transform: translateY(120%);
+    }
+
+    #ContactTitle2 {
+        transform: translateY(120%);
+    }
+
+    #ContactEmail1 {
+        transform: translateY(120%);
+    }
+
+    #ContactEmail2 {
+        transform: translateY(120%);
+    }
+
+    #ContactPage {
+        min-height: 640px;
     }
 }
 
@@ -152,6 +250,30 @@ footer {
 
     #aboutPageFooter {
         padding-top: 50px;
+    }
+
+    #ContactTitle1 {
+        font-size: 2.0em;
+        transform: translateY(60%);
+    }
+
+    #ContactTitle2 {
+        font-size: 2.0em;
+        transform: translateY(60%);
+    }
+
+    #ContactEmail1 {
+        font-size: 2.0em;
+        transform: translateY(60%);
+    }
+
+    #ContactEmail2 {
+        font-size: 2.0em;
+        transform: translateY(60%);
+    }
+
+    #ContactPage {
+        min-height: 440px;
     }
 }
 
@@ -207,5 +329,37 @@ footer {
         font-size: 1.8em;
         text-shadow: 2px 0px 18px #ff0a0a;
         transform: translateY(350%);
+    }
+
+    #Graphics {
+        font-size: 1.2em;
+    }
+
+    #Websites {
+        font-size: 1.2em;
+    }
+
+    #ContactTitle1 {
+        font-size: 1.2em;
+        transform: translateY(10%);
+    }
+
+    #ContactTitle2 {
+        font-size: 1.2em;
+        transform: translateY(10%);
+    }
+
+    #ContactEmail1 {
+        font-size: 1.2em;
+        transform: translateY(10%);
+    }
+
+    #ContactEmail2 {
+        font-size: 1.2em;
+        transform: translateY(10%);
+    }
+
+    #ContactPage {
+        min-height: 155px;
     }
 }
