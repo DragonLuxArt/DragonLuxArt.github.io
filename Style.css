@@ -181,7 +181,7 @@ footer {
     }
 }
 
-@media(max-width:1600px) and (min-width:600px) {
+@media(max-width:1600px) and (min-width:500px) {
 
     #aboutSkillsLogo {
         max-width: 35%;
@@ -292,7 +292,7 @@ footer {
     }
 }
 
-@media(max-width:600px) {
+@media(max-width:500px) {
 
     #indexFooter {
         height: 300px;
