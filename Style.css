@@ -330,6 +330,7 @@ footer {
 
     #aboutPageFooter {
         padding-top: 0px;
+        transform: translateY(160%);
     }
 
     #footerCaption {
@@ -365,20 +366,21 @@ footer {
     }
 
     #aboutPagePhoto1{
-        transform: translateY(89%);
+        transform: translateY(60%);
     }
     
     #aboutPagePhoto2{
-        transform: translateY(-10%);
+        transform: translateY(-37%);
     }
 
     #aboutPageText1 {
-        font-size: 0.5em;
-        transform: translateY(70%);
+        font-size: 0.7em;
+        transform: translateY(10%);
     }
 
     #jumbotronTitle1 {
-        font-size: 0.9em;
+        transform: translateY(-25%);
+        font-size: 1.3em;
     }
 
     #jumbotronTitle2 {
