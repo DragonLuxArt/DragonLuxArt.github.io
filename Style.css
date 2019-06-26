@@ -121,6 +121,8 @@ footer {
     background-color: #000000;
     background-size: cover;
     background-repeat: no-repeat;
+    /*margin-right: 1%;*/
+   /* margin-left: 1.5%;*/
 }
 
 #Graphics {
@@ -130,6 +132,7 @@ footer {
     font-size: 3.5em;
     font-style: italic;
     margin-right: 50px;
+    margin-left: -208px;
 }
 
 #Websites {
@@ -139,6 +142,16 @@ footer {
     font-size: 3.5em;
     font-style: italic;
     margin-left: 50px;
+}
+
+#Sketches{
+    display: inline-block;
+    color: #ff0000;
+    font-family: Britannic;
+    font-size: 3.5em;
+    font-style: italic;
+    left:44%; 
+    margin-top: 3%;
 }
 
 #ContactPage {
@@ -241,6 +254,16 @@ footer {
         font-size: 1.0em;
     }
 
+    #Graphics{
+        margin-right: 50px;
+        margin-left: -110px;
+    }
+
+    #Websites{
+        margin-right: 50px;
+        margin-left: 80px;
+    }
+
     #ContactTitle1 {
         transform: translateY(120%);
     }
@@ -297,6 +320,18 @@ footer {
         padding-top: 50px;
     }
 
+    #Graphics{
+        font-size: 2.1em;
+    }
+
+    #Websites{
+        font-size: 2.1em;
+    }
+    
+    #Sketches{
+        font-size: 2.1em;
+    }
+
     #ContactTitle1 {
         font-size: 2.0em;
         transform: translateY(60%);
@@ -322,7 +357,53 @@ footer {
     }
 }
 
+@media(max-width:890px){
+    #Graphics{
+        font-size: 1.6em;
+        margin-right: 50px;
+        margin-left: -20px;
+    }
+
+    #Websites{
+        font-size: 1.6em;
+        margin-right: 50px;
+        margin-left: -10px;
+    }
+    
+    #Sketches{
+        font-size: 1.6em;
+    }
+}
+
+@media(max-width:600px){
+    #Graphics{
+        font-size: 1.2em;
+        margin-right: 50px;
+        margin-left: 5px;
+    }
+
+    #Websites{
+        font-size: 1.2em;
+        margin-right: 50px;
+        margin-left: -10px;
+    }
+    
+    #Sketches{
+        font-size: 1.2em;
+    }
+}
+
 @media(max-width:500px) {
+
+    #Graphics{
+        margin-right: 50px;
+        margin-left: 10px;
+    }
+
+    #Websites{
+        margin-right: 50px;
+        margin-left: -10px;
+    }
 
     #indexFooter {
         height: 300px;
