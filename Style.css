@@ -1,504 +1,498 @@
-﻿body {
-    background-color: #000000;
+﻿@media (min-width: 1400px){
+    body {
+        background-color: black;
+        background-attachment: fixed;
+        background-image: url('Images/DragonHunterWithBackground.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 95%;
+    }
 }
 
-.navbar-custom {
-    background-color: #000000;
+.navbar-inverse {
+    margin: 0;
+    border-radius: 0;
+    border-bottom: 2px solid lightskyblue;
+    background-color: black;
+    padding: 1% 0;
+    font-size: 1.2em;
 }
-
-    .navbar-custom .nav-item .nav-link {
-        color: #ff0000;
-    }
-
-    .navbar-custom .nav-item:hover .nav-link {
-        color: #e26d6d;
-    }
 
 .navbar-brand {
-    padding: 5px 5px 5px;
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+    color: aqua;
+    background-color: black;
+}
+
+.nav.navbar-nav.navbar-right li a{
+    color: lightskyblue;
+}
+
+.carousel-inner{
+    max-height: 900px;
 }
 
 .carousel-caption {
-    color: #000000;
-    text-shadow: 4px 2px 14px #ff0000;
-    top: 30%;
+    top: 40%;
+    /*transform: translateX(-60px);*/
+    font-family: Britannic;
+    text-shadow: 4px 2px 5px black;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: solid transparent 1px;
+    padding: 1% 2%;
+    border-radius: 50% 50%;
+    box-shadow: 0px 0px 30px white;
+}
+
+h4 {
+    font-family: Britannic;
+    font-size: 1.8em;
+    color: white;
+    text-shadow: 2px 1px 2px lightblue;
+    padding: 0 0;
+}
+
+h3 {
+    font-family: Britannic;
+    font-size: 3.8em;
+    color: white;
+    text-shadow: 2px 1px 2px lightblue;
+    padding: 10% 23% 10% 0;
 }
 
 h2 {
     font-family: Britannic;
-    font-size: 3.5em;
-    font-style: italic;
+    font-size: 3.8em;
+    color: white;
+    text-shadow: 2px 1px 2px lightblue;
+    padding-top: 15%;
+    padding-bottom: 2%;
+}
+
+#section2{
+    background-attachment: fixed;
+    background-image: url('Images/SelfieSnowboard.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    padding-bottom: 10%;
+    border-radius: 10%;
+    border: transparent solid 1px;
+    box-shadow: 0px 0px 30px black;
+}
+
+.portfolioGrid{
+    width: 100%;
+    max-width: 1980px;
+    display: block;
+}
+
+.col-sm-3 {
+    height: 300px;
+}
+
+#portfolioImage {
+    width: 140%;
+    max-width: 460px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px black;
+}
+
+.portfolioImage1{
+    margin-left: -220%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage1:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage2{
+    margin-left: -80%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage2:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage3{
+    margin-left: 10%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage3:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage4{
+    margin-left: 80%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage4:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage5{
+    margin-left: -220%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage5:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage6{
+    margin-left: -80%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage6:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage7{
+    margin-left: 10%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage7:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage8{
+    margin-left: 80%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage8:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage9{
+    margin-left: -220%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage9:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage10{
+    margin-left: -80%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage10:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage11{
+    margin-left: 10%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage11:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage12{
+    margin-left: 80%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage12:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage13{
+    margin-left: -220%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage13:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage14{
+    margin-left: -80%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage14:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage15{
+    margin-left: 10%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage15:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+.portfolioImage16{
+    margin-left: 80%;
+    margin-bottom: 80px;
+    opacity: 0.6;
+}
+
+.portfolioImage16:hover{
+    opacity: 1.0;
+    transform: scale(1.2 , 1.2);
+}
+
+p {
+    font-size: 1.8em;
+    color: white;
+    text-shadow: 2px 1px 2px black;
 }
 
 footer {
-    padding: 50px 50px 0px;
-    background-color: #000000;
-    color: #ff0000;
+    border-top: 2px solid lightskyblue;
+    background-color: black;
+    padding: 2%;
+    padding-top: 8%;
+    width: 100%;
 }
 
 .fa {
-    color: #ff0000;
+    font-size: 40px;
+    padding: 3% 5%;
+    color: lightskyblue;
 }
 
     .fa:hover {
-        color: #e26d6d;
+        color:lightskyblue;
+        text-decoration: none;
     }
 
-#footerCaption {
-    padding: 50px 50px 10px;
-    border-top: 1px solid #ff0000;
-    color: #ff0000;
-    font-size: 0.8em;
+#footerLogo {
+    font-size: 10%;
+    top: -60px;
 }
 
-/* #aboutPage {
-    background-image: url('Images/BK-Background_WithoutLogo.jpg');
-    background-color: #000000;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    max-height: 850px;
-    border-radius: 0;
-    margin: 0;
-} */
+@media (max-width: 1910px){
+    #portfolioImage {
+        width: 100%;
+    }
 
-#aboutPage{
-    background-color: #000000;
-    background-size: 100%;
-    margin-bottom: -35%;
-}
-
-#aboutPageLogoUpper {
-    transform: translateY(50%);
-    max-width: 100%;
-}
-
-#aboutPageFooter{
-    transform: translateY(210%);
-}
-
-#aboutPageLogoLower {
-    transform: translateY(40%);
-    max-width: 100%;
-}
-
-#aboutPagePhoto1{
-    transform: translateY(-50%);
-    max-width: 25%;
-}
-
-#aboutPagePhoto2{
-    transform: translateY(-150%);
-    margin-left: 75%;
-    max-width: 25%;
-}
-
-#jumbotronTitle1 {
-    font-family: Britannic;
-    font-size: 3.5em;
-    font-style: italic;
-    color: rgb(143, 4, 4);
-    transform: translateY(200%);
-}
-
-#jumbotronTitle2 {
-    font-family: Britannic;
-    font-size: 3.5em;
-    font-style: italic;
-    color: #000000;
-    text-shadow: 2px 2px 14px #ff0000;
-    transform: translateY(70px);
-}
-
-#aboutPageText1 {
-    font-family: 'Arial Rounded MT';
-    font-size: 1.4em;
-    font-style: italic;
-    color:rgb(143, 4, 4);
-    transform: translateY(90%);
-}
-
-#PortfolioPage {
-    background-color: #000000;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#Graphics {
-    display: inline-block;
-    color: #ff0000;
-    font-family: Britannic;
-    font-size: 3.5em;
-    font-style: italic;
-    margin-right: 50px;
-    margin-left: -200px;
-}
-
-#Websites {
-    display: inline-block;
-    color: #ff0000;
-    font-family: Britannic;
-    font-size: 3.5em;
-    font-style: italic;
-    margin-left: 50px;
-}
-
-#Sketches{
-    display: inline-block;
-    color: #ff0000;
-    font-family: Britannic;
-    font-size: 3.5em;
-    font-style: italic;
-    left:44%; 
-    margin-top: 3%;
-}
-
-#ContactPage {
-    background-image: url('Images/BK-Background_WithoutLogo.jpg');
-    background-color: #000000;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 840px;
-    border-radius: 0;
-    margin: 0;
-}
-
-#ContactTitle1 {
-    font-family: Britannic;
-    font-size: 3.5em;
-    color: #000000;
-    text-shadow: 2px 2px 14px #ff0000;
-    list-style: none;
-    display: inline-block;
-    transform: translateY(200%);
-    margin: -2px;
-}
-
-#ContactTitle2 {
-    font-family: Britannic;
-    font-size: 3.5em;
-    color: #000000;
-    text-shadow: 2px 2px 14px #ff0000;
-    list-style: none;
-    display: inline-block;
-    transform: translateY(200%);
-    margin: -2px;
-}
-
-#ContactEmail1 {
-    font-family: Britannic;
-    font-size: 3.5em;
-    color: #000000;
-    text-shadow: 2px 2px 14px #ff0000;
-    list-style: none;
-    display: inline-block;
-    transform: translateY(200%);
-    margin: -2px;
-}
-
-#ContactEmail2 {
-    font-family: Britannic;
-    font-size: 3.5em;
-    color: #000000;
-    text-shadow: 2px 2px 14px #ff0000;
-    list-style: none;
-    display: inline-block;
-    transform: translateY(200%);
-    margin: -2px;
-}
-
-@media(min-width:1601px) {
-
-    #aboutSkillsLogo {
-        max-width: 30%;
+    .portfolioImage1{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage1:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage2{
+        margin-left: 0%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage2:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage3{
+        margin-left: 0%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage3:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage4{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage4:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage5{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage5:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage6{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage6:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage7{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage7:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage8{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage8:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage9{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage9:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage10{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage10:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage11{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage11:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage12{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage12:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
     }
 }
 
-@media(max-width:1600px) and (min-width:500px) {
-
-    #aboutPage{
-        margin-bottom: -49%;
-        margin-top: -5%;
+@media (max-width: 1400px){
+    body {
+        background-color: black;
     }
 
-    #aboutSkillsLogo {
-        max-width: 35%;
-    }
-
-    #aboutPageFooter {
-        padding-top: 0px;
-        /* margin-top: -50px; */
-    }
-
-    #aboutPageLogoUpper {
-        transform: translateY(-10%);
-        max-width: 100%;
-    }
-
-    #aboutPageLogoLower {
-        transform: translateY(-15%);
-        max-width: 100%;
-    }
-
-    #jumbotronTitle1 {
-        font-size: 2.5em;
-    }
-
-    #jumbotronTitle2 {
-        font-size: 2.5em;
-        transform: translateY(0px);
-    }
-
-    #aboutPageText1 {
-        font-size: 1.0em;
-    }
-
-    #Graphics{
-        margin-right: 50px;
-        margin-left: -110px;
-    }
-
-    #Websites{
-        margin-right: 50px;
-        margin-left: 80px;
-    }
-
-    #ContactTitle1 {
-        transform: translateY(120%);
-    }
-
-    #ContactTitle2 {
-        transform: translateY(120%);
-    }
-
-    #ContactEmail1 {
-        transform: translateY(120%);
-    }
-
-    #ContactEmail2 {
-        transform: translateY(120%);
-    }
-
-    #ContactPage {
-        min-height: 640px;
+    #portfolioImage {
+        border: 2px solid white;
     }
 }
 
-@media(max-width:1100px) {
-
-    #aboutPage{
-        margin-bottom: -80%;
-        margin-top: -5%;
-        max-height: 600px;
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
     }
 
-    #aboutPageText1 {
-        font-size: 0.8em;
+    #icon {
+        max-width: 80px;
+        padding: 5% 0;
     }
 
-    #jumbotronTitle1 {
+    h2, h3 {
         font-size: 1.8em;
     }
 
-    #aboutPageLogoUpper {
-        transform: translateY(-50%);
-        max-width: 60%;
+    p {
+        font-size: 0.6em;
     }
 
-    #aboutPageLogoLower {
-        transform: translateY(-50%);
-        max-width: 60%;
-    }
-
-    #jumbotronTitle2 {
-        font-size: 2.5em;
-        transform: translateY(-80px);
-    }
-
-    #aboutPageFooter {
-        padding-top: 50px;
-    }
-
-    #Graphics{
-        font-size: 2.1em;
-    }
-
-    #Websites{
-        font-size: 2.1em;
-    }
-    
-    #Sketches{
-        font-size: 2.1em;
-    }
-
-    #ContactTitle1 {
-        font-size: 2.0em;
-        transform: translateY(60%);
-    }
-
-    #ContactTitle2 {
-        font-size: 2.0em;
-        transform: translateY(60%);
-    }
-
-    #ContactEmail1 {
-        font-size: 2.0em;
-        transform: translateY(60%);
-    }
-
-    #ContactEmail2 {
-        font-size: 2.0em;
-        transform: translateY(60%);
-    }
-
-    #ContactPage {
-        min-height: 440px;
-    }
-}
-
-@media(max-width:890px){
-    #Graphics{
-        font-size: 1.6em;
-        margin-right: 50px;
-        margin-left: -20px;
-    }
-
-    #Websites{
-        font-size: 1.6em;
-        margin-right: 50px;
-        margin-left: -10px;
-    }
-    
-    #Sketches{
-        font-size: 1.6em;
-    }
-}
-
-@media(max-width:600px){
-
-    #Graphics{
-        font-size: 0.8em;
-        margin-right: 50px;
-        margin-left: 5px;
-    }
-
-    #Websites{
-        font-size: 0.8em;
-        margin-right: 50px;
-        margin-left: -10px;
-    }
-    
-    #Sketches{
-        font-size: 0.8em;
-    }
-}
-
-@media(max-width:500px) {
-
-    .PortfolioPageCarousel3{
-        max-width: 70%;
-        margin-left: 16%;
-    }
-
-    #Graphics{
-        margin-right: 50px;
-        margin-left: 32px;
-    }
-
-    #Websites{
-        margin-right: 50px;
-        margin-left: -10px;
-    }
-
-    #indexFooter {
-        height: 300px;
-    }
-
-    #aboutPageFooter {
-        padding-top: 0px;
-        transform: translateY(160%);
-    }
-
-    #footerCaption {
-        padding: 0px 0 5px;
-    }
-
-    #connect {
-        padding-bottom: 0px;
-    }
-
-    #footerP {
-        font-size: 0.7em;
-        padding-top: 5px;
+    body {
+        background-position-y: 55%;
+        background-attachment: fixed;
     }
 
     .fa {
-        padding-bottom: 10px;
+        font-size: 15px;
     }
 
-    h3 {
-        font-size: 1.1em;
-        margin-bottom: -15px;
-    }
-
-    #aboutPageLogoUpper {
-        transform: translateY(80%);
-        max-width: 100%;
-    }
-
-    #aboutPageLogoLower {
-        transform: translateY(80%);
-        max-width: 100%;
-    }
-
-    #aboutPagePhoto1{
-        transform: translateY(60%);
-    }
-    
-    #aboutPagePhoto2{
-        transform: translateY(-37%);
-    }
-
-    #aboutPageText1 {
-        font-size: 0.7em;
-        transform: translateY(10%);
-    }
-
-    #jumbotronTitle1 {
-        transform: translateY(-25%);
-        font-size: 1.3em;
-    }
-
-    #jumbotronTitle2 {
-        font-size: 1.8em;
-        text-shadow: 2px 0px 18px #ff0a0a;
-        transform: translateY(350%);
-    }
-
-    #ContactTitle1 {
-        font-size: 1.2em;
-        text-shadow: 2px 0px 5px #ff0a0a;
-        transform: translateY(10%);
-    }
-
-    #ContactTitle2 {
-        font-size: 1.2em;
-        text-shadow: 2px 0px 5px #ff0a0a;
-        transform: translateY(10%);
-    }
-
-    #ContactEmail1 {
-        font-size: 1.2em;
-        text-shadow: 2px 0px 5px #ff0a0a;
-        transform: translateY(10%);
-    }
-
-    #ContactEmail2 {
-        font-size: 1.2em;
-        text-shadow: 2px 0px 5px #ff0a0a;
-        transform: translateY(10%);
-    }
-
-    #ContactPage {
-        min-height: 155px;
+    #footerLogo {
+        margin-top: 15%;
+        margin-left: 15%;
+        width: 180px;
+        height: 140px;
     }
 }
