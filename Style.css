@@ -436,6 +436,20 @@ footer {
     #section2{
         background-image: none;  
     }
+
+    #footerLogo {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 800px){
+    p{
+        font-size: 1.4em;
+    }
+
+    #footerLogo {
+        margin-left: -15%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -589,8 +603,20 @@ footer {
 
     #footerLogo {
         margin-top: 15%;
-        margin-left: 11%;
+        margin-left: 0;
         width: 200px;
         height: 160px;
+    }
+}
+
+@media (max-width: 321px){
+    .logoFooter{
+        width: 260px;
+        height: 150px;
+    }
+
+    #footerLogo {
+        margin-top: 20%;
+        margin-left: 10%;
     }
 }
