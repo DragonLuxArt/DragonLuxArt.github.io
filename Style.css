@@ -1,4 +1,4 @@
-﻿@media (min-width: 1400px){
+﻿@media (min-width: 1366px){
     body {
         background-color: black;
         background-attachment: fixed;
@@ -6,6 +6,182 @@
         background-size: 100%;
         background-repeat: no-repeat;
         background-position-y: 95%;
+    }
+
+    .portfolioImage1{
+        margin-left: -220%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage1:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage2{
+        margin-left: -80%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage2:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage3{
+        margin-left: 10%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage3:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage4{
+        margin-left: 80%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage4:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage5{
+        margin-left: -220%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage5:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage6{
+        margin-left: -80%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage6:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage7{
+        margin-left: 10%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage7:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage8{
+        margin-left: 80%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage8:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage9{
+        margin-left: -220%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage9:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage10{
+        margin-left: -80%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage10:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage11{
+        margin-left: 10%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage11:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage12{
+        margin-left: 80%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage12:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage13{
+        margin-left: -220%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage13:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage14{
+        margin-left: -80%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage14:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage15{
+        margin-left: 10%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage15:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
+    }
+    
+    .portfolioImage16{
+        margin-left: 80%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+    
+    .portfolioImage16:hover{
+        opacity: 1.0;
+        transform: scale(1.2 , 1.2);
     }
 }
 
@@ -66,7 +242,7 @@ h3 {
     font-size: 3.8em;
     color: white;
     text-shadow: 2px 1px 2px lightblue;
-    padding: 10% 23% 10% 0;
+    padding: 10% 23% 10% 23%;
 }
 
 h2 {
@@ -106,182 +282,6 @@ h2 {
     border: 2px solid black;
     border-radius: 20px;
     box-shadow: 0px 0px 30px black;
-}
-
-.portfolioImage1{
-    margin-left: -220%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage1:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage2{
-    margin-left: -80%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage2:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage3{
-    margin-left: 10%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage3:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage4{
-    margin-left: 80%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage4:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage5{
-    margin-left: -220%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage5:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage6{
-    margin-left: -80%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage6:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage7{
-    margin-left: 10%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage7:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage8{
-    margin-left: 80%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage8:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage9{
-    margin-left: -220%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage9:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage10{
-    margin-left: -80%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage10:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage11{
-    margin-left: 10%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage11:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage12{
-    margin-left: 80%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage12:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage13{
-    margin-left: -220%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage13:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage14{
-    margin-left: -80%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage14:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage15{
-    margin-left: 10%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage15:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
-}
-
-.portfolioImage16{
-    margin-left: 80%;
-    margin-bottom: 80px;
-    opacity: 0.6;
-}
-
-.portfolioImage16:hover{
-    opacity: 1.0;
-    transform: scale(1.2 , 1.2);
 }
 
 p {
@@ -325,42 +325,22 @@ footer {
         opacity: 0.6;
     }
     
-    .portfolioImage1:hover{
-        opacity: 1.0;
-        transform: scale(1.2 , 1.2);
-    }
-    
     .portfolioImage2{
         margin-left: 0%;
         margin-bottom: 80px;
         opacity: 0.6;
     }
-    
-    .portfolioImage2:hover{
-        opacity: 1.0;
-        transform: scale(1.2 , 1.2);
-    }
-    
+ 
     .portfolioImage3{
         margin-left: 0%;
         margin-bottom: 80px;
         opacity: 0.6;
     }
-    
-    .portfolioImage3:hover{
-        opacity: 1.0;
-        transform: scale(1.2 , 1.2);
-    }
-    
+  
     .portfolioImage4{
         margin-left: 0;
         margin-bottom: 80px;
         opacity: 0.6;
-    }
-    
-    .portfolioImage4:hover{
-        opacity: 1.0;
-        transform: scale(1.2 , 1.2);
     }
     
     .portfolioImage5{
@@ -368,76 +348,41 @@ footer {
         margin-bottom: 80px;
         opacity: 0.6;
     }
-    
-    .portfolioImage5:hover{
-        opacity: 1.0;
-        transform: scale(1.2 , 1.2);
-    }
-    
+
     .portfolioImage6{
         margin-left: 0;
         margin-bottom: 80px;
         opacity: 0.6;
     }
-    
-    .portfolioImage6:hover{
-        opacity: 1.0;
-        transform: scale(1.2 , 1.2);
-    }
-    
+  
     .portfolioImage7{
         margin-left: 0;
         margin-bottom: 80px;
         opacity: 0.6;
     }
-    
-    .portfolioImage7:hover{
-        opacity: 1.0;
-        transform: scale(1.2 , 1.2);
-    }
-    
+  
     .portfolioImage8{
         margin-left: 0;
         margin-bottom: 80px;
         opacity: 0.6;
     }
-    
-    .portfolioImage8:hover{
-        opacity: 1.0;
-        transform: scale(1.2 , 1.2);
-    }
-    
+   
     .portfolioImage9{
         margin-left: 0;
         margin-bottom: 80px;
         opacity: 0.6;
     }
-    
-    .portfolioImage9:hover{
-        opacity: 1.0;
-        transform: scale(1.2 , 1.2);
-    }
-    
+ 
     .portfolioImage10{
         margin-left: 0;
         margin-bottom: 80px;
         opacity: 0.6;
     }
-    
-    .portfolioImage10:hover{
-        opacity: 1.0;
-        transform: scale(1.2 , 1.2);
-    }
-    
+  
     .portfolioImage11{
         margin-left: 0;
         margin-bottom: 80px;
         opacity: 0.6;
-    }
-    
-    .portfolioImage11:hover{
-        opacity: 1.0;
-        transform: scale(1.2 , 1.2);
     }
     
     .portfolioImage12{
@@ -445,11 +390,31 @@ footer {
         margin-bottom: 80px;
         opacity: 0.6;
     }
-    
-    .portfolioImage12:hover{
-        opacity: 1.0;
-        transform: scale(1.2 , 1.2);
+  
+    .portfolioImage13{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
     }
+  
+    .portfolioImage14{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+ 
+    .portfolioImage15{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+  
+    .portfolioImage16{
+        margin-left: 0;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+ 
 }
 
 @media (max-width: 1400px){
@@ -462,9 +427,41 @@ footer {
     }
 }
 
+@media (max-width: 1200px){
+    #section2{
+        background-image: none;  
+    }
+}
+
 @media (max-width: 600px) {
-    .carousel-caption {
-        display: none;
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-for{
+        border-top: 1px solid lightskyblue;
+        margin: 5% 0 5% 0;
+        padding-top: 2%;
+    }
+
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-right: 0;
+        margin-left: -15px;
+    }
+
+    .container-fluid{
+        padding: 0 0 0 0;
+    }
+
+    h1{
+        font-size: 2.0em;
+        margin-top: -15%;
+    }
+
+    .btn {
+        border: solid transparent 1px;
+        padding: 2% 2%;
+        border-radius: 50% 50%;
+        box-shadow: 0px 0px 30px white;
+        font-size: 0.6em;
+        margin-top: 12%;
     }
 
     #icon {
@@ -472,12 +469,91 @@ footer {
         padding: 5% 0;
     }
 
+    .container {
+        padding-right: 0;
+    }
+
+    .portfolioImage1{
+        opacity: 1.0;
+    }
+    
+    .portfolioImage2{
+        opacity: 1.0;
+    }
+ 
+    .portfolioImage3{
+        opacity: 1.0;
+    }
+  
+    .portfolioImage4{
+        opacity: 1.0;
+    }
+    
+    .portfolioImage5{
+        opacity: 1.0;
+    }
+
+    .portfolioImage6{
+        opacity: 1.0;
+    }
+  
+    .portfolioImage7{
+        opacity: 1.0;
+    }
+  
+    .portfolioImage8{
+        opacity: 1.0;
+    }
+   
+    .portfolioImage9{
+        opacity: 1.0;
+    }
+ 
+    .portfolioImage10{
+        opacity: 1.0;
+    }
+  
+    .portfolioImage11{
+        opacity: 1.0;
+    }
+    
+    .portfolioImage12{
+        opacity: 1.0;
+    }
+  
+    .portfolioImage13{
+        opacity: 1.0;
+    }
+  
+    .portfolioImage14{
+        opacity: 1.0;
+    }
+ 
+    .portfolioImage15{
+        opacity: 1.0;
+    }
+  
+    .portfolioImage16{
+        opacity: 1.0;
+    }
+
+    #myCarousel{
+        border-bottom: 1px solid lightskyblue;
+    }
+
     h2, h3 {
-        font-size: 1.8em;
+        font-size: 2.2em;
+        padding: 10% 0 5% 0;
+    }
+
+    h3{
+        border-top: 1px solid lightskyblue;
+        padding: 15% 0 15% 0;
     }
 
     p {
-        font-size: 0.6em;
+        font-size: 0.9em;
+        padding: 0 0 5% 0;
     }
 
     body {
@@ -485,14 +561,30 @@ footer {
         background-attachment: fixed;
     }
 
+    .col-sm-3{
+        margin-top: 0;
+    }
+
+    .row {
+        margin-right: 0; 
+    }
+
+    #contactMe{
+        padding-top: 10%;
+    }
+
     .fa {
-        font-size: 15px;
+        font-size: 25px;
+    }
+
+    #footerDiv{
+        padding-bottom: 15%;
     }
 
     #footerLogo {
         margin-top: 15%;
-        margin-left: 15%;
-        width: 180px;
-        height: 140px;
+        margin-left: 11%;
+        width: 200px;
+        height: 160px;
     }
 }
