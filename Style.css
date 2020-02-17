@@ -314,6 +314,11 @@ footer {
     top: -60px;
 }
 
+.logoFooter{
+    width: 360px;
+    height: 250px;
+}
+
 @media (max-width: 1910px){
     #portfolioImage {
         width: 100%;
