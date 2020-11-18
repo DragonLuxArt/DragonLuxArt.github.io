@@ -183,6 +183,28 @@
         opacity: 1.0;
         transform: scale(1.2 , 1.2);
     }
+
+    .webportfolioImage1{
+        margin-left: -66%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+
+    .webportfolioImage2{
+        margin-left: 0%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+
+    .webportfolioImage1:hover{
+        opacity: 1.0;
+        transform: scale(1.08 , 1.08);
+    }
+
+    .webportfolioImage2:hover{
+        opacity: 1.0;
+        transform: scale(1.08 , 1.08);
+    }
 }
 
 .navbar-inverse {
@@ -227,6 +249,16 @@
     padding: 2% 2%;
     border-radius: 50% 50%;
     box-shadow: 0px 0px 30px white;
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+    border: solid transparent 1px;
+    padding: 1.8% 1.8%;
+    border-radius: 60% 60%;
+    box-shadow: 0px 0px 30px white;
+    margin-bottom: 5%;
 }
 
 h4 {
@@ -279,6 +311,14 @@ h2 {
 #portfolioImage {
     width: 140%;
     max-width: 460px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px black;
+}
+
+#webportfolioImage {
+    width: 550%;
+    max-width: 880px;
     border: 2px solid black;
     border-radius: 20px;
     box-shadow: 0px 0px 30px black;
