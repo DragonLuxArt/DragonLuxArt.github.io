@@ -360,98 +360,123 @@ footer {
 }
 
 @media (max-width: 1910px){
+
     #portfolioImage {
         width: 100%;
     }
 
+    .col-sm-3{
+        max-height: 200px;
+    }
+
     .portfolioImage1{
         margin-left: 0;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
     
     .portfolioImage2{
         margin-left: 0%;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
  
     .portfolioImage3{
         margin-left: 0%;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
   
     .portfolioImage4{
         margin-left: 0;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
     
     .portfolioImage5{
         margin-left: 0;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
 
     .portfolioImage6{
         margin-left: 0;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
   
     .portfolioImage7{
         margin-left: 0;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
   
     .portfolioImage8{
         margin-left: 0;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
    
     .portfolioImage9{
         margin-left: 0;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
  
     .portfolioImage10{
         margin-left: 0;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
   
     .portfolioImage11{
         margin-left: 0;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
     
     .portfolioImage12{
         margin-left: 0;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
   
     .portfolioImage14{
         margin-left: 0;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
  
     .portfolioImage15{
         margin-left: 0;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         opacity: 0.6;
     }
   
     .portfolioImage16{
         margin-left: 0;
+        margin-bottom: 0px;
+        opacity: 0.6;
+    }
+
+    .webportfolioImage1{
+        margin-left: 0%;
         margin-bottom: 80px;
         opacity: 0.6;
+    }
+
+    .webportfolioImage2{
+        margin-left: 0%;
+        margin-bottom: 80px;
+        opacity: 0.6;
+    }
+
+    #webportfolioImage {
+        width: 100%;
+        max-width: 580px;
+        border: 2px solid white;
+        border-radius: 20px;
+        box-shadow: 0px 0px 30px black;
     }
  
 }
@@ -464,6 +489,17 @@ footer {
     #portfolioImage {
         border: 2px solid white;
     }
+
+    .webportfolioImage1:hover{
+        opacity: 1.0;
+        transform: scale(1.08 , 1.08);
+    }
+
+    .webportfolioImage2:hover{
+        opacity: 1.0;
+        transform: scale(1.08 , 1.08);
+    }
+
 }
 
 @media (max-width: 1200px){
@@ -474,6 +510,10 @@ footer {
     #footerLogo {
         margin-left: 0;
     }
+
+    .col-sm-3{
+        max-height: 130px;
+    }
 }
 
 @media (max-width: 800px){
@@ -483,6 +523,12 @@ footer {
 
     #footerLogo {
         margin-left: -15%;
+    }
+}
+
+@media (max-width: 700px){
+    .col-sm-3{
+        max-height: 600px;
     }
 }
 
@@ -589,6 +635,22 @@ footer {
   
     .portfolioImage16{
         opacity: 1.0;
+    }
+
+    .webportfolioImage1{
+        opacity: 1.0;
+    }
+
+    .webportfolioImage2{
+        opacity: 1.0;
+    }
+
+    .webportfolioImage1:hover{
+        transform: scale(1.0 , 1.0);
+    }
+
+    .webportfolioImage2:hover{
+        transform: scale(1.0 , 1.0);
     }
 
     #myCarousel{
