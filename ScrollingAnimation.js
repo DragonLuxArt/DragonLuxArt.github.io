@@ -12,7 +12,7 @@ $("#about").click(function () {
 
 $("#portfolio").click(function () {
     $('html, body').animate({
-        scrollTop: $('.col-sm-3').offset().top
+        scrollTop: $('.PortfolioHeader').offset().top
     }, 2000);
 });
 
