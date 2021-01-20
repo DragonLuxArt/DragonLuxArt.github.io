@@ -1,6 +1,6 @@
 ﻿$(".btn").click(function () {
     $('html, body').animate({
-        scrollTop: $('.col-sm-3').offset().top
+        scrollTop: $('h5').offset().top
     }, 2000);
 });
 
