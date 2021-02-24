@@ -615,6 +615,14 @@ footer {
     .container{
         width: 900px;
     }
+
+    .footerEmail{
+        font-size: 1.4em;
+    }
+
+    .fa{
+        font-size: 1.8em;
+    }
 }
 
 @media (max-width: 900px){
@@ -634,8 +642,12 @@ footer {
         font-size: 0.8em;
     }
 
-    #footerLogo {
-        margin-left: -15%;
+    .footerEmail{
+        font-size: 1.0em;
+    }
+
+    .fa{
+        font-size: 1.4em;
     }
 }
 
@@ -660,10 +672,15 @@ footer {
     h2{
         font-size: 2.8em;
     }
+
     .PortfolioHeader{
         font-size: 2.8em;
         padding: 10% 0% 10% 0%;
         margin-left: 20%;
+    }
+
+    .logoFooter{
+        margin-top: 60px;
     }
 }
 
@@ -866,21 +883,21 @@ footer {
 
     #footerLogo {
         margin-top: 7%;
-        margin-left: 26%;
+        margin-left: 29%;
         width: 200px;
         height: 160px;
     }
 
 }
 
-@media (max-width: 321px){
+@media (max-width: 400px){
     .logoFooter{
         width: 260px;
         height: 150px;
     }
 
     #footerLogo {
-        margin-top: 20%;
-        margin-left: 10%;
+        margin-top: 5%;
+        margin-left: 20%;
     }
 }
