@@ -431,6 +431,12 @@ footer {
 
     .col-sm-3{
         max-height: 200px;
+        margin-top: 5%;
+        padding-right: 2%;
+    }
+
+    .container{
+        width: 1400px;
     }
 
     /*.portfolioImage1{
@@ -535,6 +541,10 @@ footer {
         opacity: 0.6;
     }*/
 
+    .captionPortfolio{
+        font-size: 1.3em;
+    }
+
     #webportfolioImage {
         width: 100%;
         max-width: 580px;
@@ -563,6 +573,10 @@ footer {
         opacity: 1.0;
         transform: scale(1.08 , 1.08);
     }*/
+
+    .captionPortfolio{
+        font-size: 1.1em;
+    }
 
 }
 
