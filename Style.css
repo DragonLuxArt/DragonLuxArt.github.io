@@ -830,7 +830,7 @@ footer {
     }*/
 
     #myCarousel{
-        border-bottom: 1px solid lightskyblue;
+        border-bottom: 1px solid white;
     }
 
     h5{
@@ -843,7 +843,7 @@ footer {
     }
 
     h3{
-        border-top: 1px solid lightskyblue;
+        border-top: 1px solid white;
         padding: 15% 0 15% 0;
     }
 
