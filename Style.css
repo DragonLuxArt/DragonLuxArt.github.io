@@ -661,6 +661,7 @@ footer {
 
     p{
         font-size: 1.4em;
+        line-height: 3vw;
     }
 
     p2{
@@ -713,6 +714,10 @@ footer {
 
     h2{
         font-size: 2.8em;
+    }
+
+    p{
+        line-height: 4vw;
     }
 
     p2{
@@ -944,6 +949,10 @@ footer {
 
     body{
         line-height: 2vw;
+    }
+
+    p{
+        line-height: 5.5vw;
     }
 
     p2{
