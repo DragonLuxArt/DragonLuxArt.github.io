@@ -299,7 +299,7 @@ h3 {
     font-size: 4.0em;
     color: white;
     text-shadow: 2px 1px 6px black;
-    padding: 10% 0% 10% 0%;
+    padding: 6% 0% 6% 0%;
 }
 
 h2 {
@@ -345,13 +345,23 @@ p2{
 
 .portfolioGrid{
     width: 100%;
-    max-width: 1900px;
+    max-width: 1920px;
     display: block;
 }
 
 .col-sm-3 {
     height: 300px;
     opacity: 0.6;
+}
+
+.col-sm-5 {
+    width: 25%;
+    height:25.5vw;
+    padding: 0 0 0 0;
+    margin-bottom: 10vw;
+    border-left: 1px solid lightskyblue;
+    border-right: 1px solid lightskyblue;
+    border-bottom: 1px solid lightskyblue;
 }
 
 .col-sm-6 {
@@ -392,6 +402,12 @@ p2{
     border-radius: 20px;
     box-shadow: 0px 0px 30px black;
 }
+#portfolioCategoryImage{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
 
 .overlay {
     position: absolute;
@@ -422,6 +438,37 @@ p {
     font-size: 1.8em;
     color: white;
     text-shadow: 2px 1px 2px black;
+}
+
+p3 {
+    font-size: 2vw;
+    color: white;
+    text-shadow: 5px 4px 4px black;
+    text-align: center;
+}
+
+.p3Web{
+    position: absolute;
+    left: 6.8vw;
+    top: 11vw;
+}
+
+.p3Logo{
+    position: absolute;
+    left: 3.5vw;
+    top: 11vw;
+}
+
+.p3Photo{
+    position: absolute;
+    left: 0.6vw;
+    top: 10vw;
+}
+
+.p3Paint{
+    position: absolute;
+    left: 4vw;
+    top: 11vw;
 }
 
 footer {
@@ -596,6 +643,10 @@ footer {
         margin-top: 0%;
         padding-right: 2%;
     }
+    .col-sm-5 {
+        /*width: 24.6vw;*/
+        height:25.5vw;
+    }
 
     #portfolioImage {
         border: 2px solid white;
@@ -634,6 +685,11 @@ footer {
         margin-top: 5%;
     }
 
+    /*.col-sm-5 {
+        width: 24.4vw;
+        height:25.5vw;
+    }*/
+
     .logoFooter{
         max-width: 230px;
         height: 130px;
@@ -668,6 +724,10 @@ footer {
         font-size: 1.2vw;
     }
 
+    .p3Photo{
+        line-height: 2vw;
+    }
+
     .container{
         width: 700px;
     }
@@ -689,7 +749,7 @@ footer {
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 770px){
 
     body{
         background-image: none;
@@ -702,6 +762,11 @@ footer {
 
     .col-sm-3{
         max-height: 600px;
+    }
+    .col-sm-5 {
+        width: 100%;
+        height:100%;
+        margin-bottom: 0;
     }
 
     h5{
@@ -722,6 +787,34 @@ footer {
 
     p2{
         font-size: 1.4vw;
+    }
+    
+    p3{
+        font-size: 6vw;
+    }
+
+    .p3Web{
+        position: absolute;
+        left: 32vw;
+        top: 25vw;
+    }
+    
+    .p3Logo{
+        position: absolute;
+        left: 22vw;
+        top: 25vw;
+    }
+    
+    .p3Photo{
+        position: absolute;
+        left: 10.6vw;
+        top: 25vw;
+    }
+    
+    .p3Paint{
+        position: absolute;
+        left: 24vw;
+        top: 25vw;
     }
 
     .PortfolioHeader{
@@ -898,8 +991,7 @@ footer {
     }
 
     h3{
-        border-top: 1px solid white;
-        padding: 15% 0 15% 0;
+        padding: 8% 0 8% 0;
     }
 
     p {
