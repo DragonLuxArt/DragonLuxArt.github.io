@@ -255,8 +255,9 @@ p3 {
 
 .p3Logo{
     position: absolute;
-    left: 3.5vw;
-    top: 11vw;
+    left: 2vw;
+    top: 10vw;
+    margin-right: 1.5vw;
 }
 
 .p3Photo{
@@ -528,6 +529,10 @@ footer {
         line-height: 2vw;
     }
 
+    .p3Logo{
+        line-height: 2vw;
+    }
+
     .container{
         width: 700px;
     }
@@ -601,8 +606,9 @@ footer {
     
     .p3Logo{
         position: absolute;
-        left: 22vw;
-        top: 25vw;
+        left: 1.8vw;
+        top: 20vw;
+        line-height: 10vw;
     }
     
     .p3Photo{
