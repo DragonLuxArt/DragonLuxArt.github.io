@@ -12,6 +12,10 @@ body {
     width: 1800px;
     margin-bottom: 15vw;
   }
+
+  #section4{
+    margin-top: -12%;
+  }
 }
 
 .navbar-inverse {
@@ -70,6 +74,10 @@ body {
   margin-bottom: 5%;
 }
 
+.buttonPortfolioDiv{
+  margin-top: -5%;
+}
+
 h6 {
   font-family: Britannic;
   font-size: 1.8em;
@@ -102,6 +110,17 @@ h3 {
   color: white;
   text-shadow: 2px 1px 6px black;
   padding: 6% 0% 6% 0%;
+}
+
+h8{
+  font-family: Britannic;
+  font-size: 4em;
+  color: white;
+  text-shadow: 2px 1px 6px black;
+}
+
+.h8Div{
+  margin: 0 0 6% 0;
 }
 
 h2 {
@@ -342,6 +361,10 @@ footer {
     padding-right: 2%;
   }
 
+  #section4{
+    margin-top: -12%;
+  }
+
   .container {
     width: 1400px;
     margin-bottom: 15vw;
@@ -578,6 +601,14 @@ footer {
     line-height: 2vw;
   }
 
+  h3 {
+    font-size: 2.8em;
+  }
+
+  h8{
+    font-size: 2.8em;
+  }
+
   .container {
     width: 700px;
   }
@@ -588,6 +619,14 @@ footer {
 
   .captionPortfolio {
     font-size: 0.8em;
+  }
+
+  .buttonPortfolioDiv{
+    margin-top: 0;
+  }
+
+  #buttonBackToPortfolio{
+    margin-top: -5%;
   }
 
   .footerEmail {
@@ -623,6 +662,10 @@ footer {
   }
 
   h3 {
+    font-size: 2.8em;
+  }
+
+  h8{
     font-size: 2.8em;
   }
 
@@ -864,6 +907,14 @@ footer {
     padding: 8% 0 8% 0;
   }
 
+  h8{
+    padding: 8% 0 8% 0;
+  }
+
+  #buttonBackToPortfolio{
+    margin-top: -7%;
+  }
+
   p {
     font-size: 0.9em;
     padding: 0 0 5% 0;
@@ -906,9 +957,17 @@ footer {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 470px) {
   body {
     line-height: 2vw;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  h8{
+    font-size: 2em;
   }
 
   p {
