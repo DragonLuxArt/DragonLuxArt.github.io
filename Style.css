@@ -919,6 +919,14 @@ footer {
     font-size: 2vw;
   }
 
+  p7{
+    line-height: 0;
+  }
+
+  .below400Mobile{
+    display: none;
+  }
+
   .portfolioIntroText {
     width: 35vw;
   }
