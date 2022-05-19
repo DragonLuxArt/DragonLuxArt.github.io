@@ -22,3 +22,7 @@ $("#contact").click(function () {
     },2000);
 });
 
+$('.carousel').carousel({
+    interval: 2500
+  })
+
